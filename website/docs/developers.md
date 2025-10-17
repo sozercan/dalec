@@ -137,13 +137,13 @@ Key targets include:
 
 - **Development:**
   - `make generate` - Generate required source files
-  - `make lint` - Run linters via docker buildx bake
+  - `make lint` - Run linters
   - `make lint-local` - Run custom linters locally without Docker
   - `make fmt` - Format Go code
 
 - **Building:**
   - `make build` - Build frontend image
-  - `make frontend` - Build frontend Docker image using docker buildx bake
+  - `make frontend` - Build frontend image (same as `make build`)
   - `make examples` - Build example specs
 
 - **Testing:**

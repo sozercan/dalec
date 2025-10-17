@@ -59,7 +59,7 @@ test-integration: ## Run integration tests. Use SUITE=<name> to run specific tes
 	fi
 
 .PHONY: test-bake
-test-bake: ## Run tests via docker buildx bake
+test-bake: ## Run tests from docker buildx bake
 	docker buildx bake test
 
 ##@ Documentation
